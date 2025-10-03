@@ -1,0 +1,29 @@
+{
+  "name": "gata-auto-bot",
+  "version": "1.0.0",
+  "description": "Gata platform auto registration and daily transfer bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "https-proxy-agent": "^7.0.2",
+    "node-cron": "^3.0.3",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "gata",
+    "ethereum",
+    "opbnb",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
